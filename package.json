@@ -1,5 +1,5 @@
 {
-	"name": "cloudflare-saas-starter",
+	"name": "portfolio",
 	"private": true,
 	"type": "module",
 	"version": "0.0.1",
@@ -17,14 +17,14 @@
 		"@clack/prompts": "^0.7.0",
 		"@cloudflare/next-on-pages": "1",
 		"@cloudflare/workers-types": "^4.20240512.0",
-		"@iarna/toml": "^2.2.5",
+		"@iarna/toml": "3.0.0",
 		"@repo/shared-types": "*",
 		"@repo/tailwind-config": "*",
 		"@repo/typescript-config": "*",
 		"@tailwindcss/typography": "^0.5.13",
 		"@types/readline-sync": "^1.4.8",
 		"autoprefixer": "^10.4.19",
-		"drizzle-kit": "^0.21.2",
+		"drizzle-kit": "0.24.0",
 		"eslint-plugin-next-on-pages": "^1.11.3",
 		"postcss": "^8.4.38",
 		"prettier": "^3.2.5",
@@ -32,7 +32,8 @@
 		"tailwindcss": "^3.4.3",
 		"tailwindcss-animate": "^1.0.7",
 		"turbo": "latest",
-		"vercel": "^34.2.0"
+		"vercel": "35.2.4",
+		"wrangler": "^3.70.0"
 	},
 	"engines": {
 		"node": ">=18"
@@ -49,7 +50,7 @@
 		"@radix-ui/react-progress": "^1.0.3",
 		"@radix-ui/react-scroll-area": "^1.0.5",
 		"@radix-ui/react-slot": "^1.0.2",
-		"drizzle-orm": "^0.30.10",
+		"drizzle-orm": "0.33.0",
 		"next-app-theme": "^0.1.10",
 		"next-auth": "^5.0.0-beta.18",
 		"react-dropzone": "^14.2.3",

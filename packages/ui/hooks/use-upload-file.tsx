@@ -26,19 +26,6 @@ export function useUploadFile<T>(key: string, options?: T) {
 				const resp = (await response.json()) as { url: string };
 				const url = resp.url;
 
-				const response2 = await fetch(url, {
-					method: "PUT",
-					body: file,
-					headers: {
-						"Content-Type": file.type,
-					},
-				});
-
-				if (response2.status !== 200) {
-					throw new Error(response2.statusText);
-				}
-
-				// For showing on the client
 				const uri = URL.createObjectURL(file);
 
 				setUploadedFiles((prev) => [

@@ -4,10 +4,13 @@ bun.lockb
 .*.vars
 .wrangler
 
+
 # Dependencies
 node_modules
 .pnp
 .pnp.js
+migrations
+drizzleMigrations
 
 # Local env files
 .env

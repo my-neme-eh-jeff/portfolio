@@ -1,12 +1,13 @@
-name = "cloudflare-saas-starter"
+name = "portfolio"
 compatibility_date = "2024-03-29"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
-
 [placement]
 mode = "smart"
 
 [[d1_databases]]
 binding = "DATABASE"
-database_name = "new-commit"
-database_id = "6e4ffe08-4acc-4436-9677-9fa0d2cf3bfa"
+database_name = "portfolio-db"
+database_id = "2635797e-71bd-4eaf-9a3a-a26d480a9d6d"
+
+
